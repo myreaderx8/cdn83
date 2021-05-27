@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head >
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="https://blog.feedly.com/wp-content/themes/feedly2020v125/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+		<script type="9d571106229765fdf3515c6d-text/javascript">
+		var templateUrl = 'https://blog.feedly.com/wp-content/themes/feedly2020v125';
+	</script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<title>How an Australian energy provider stays on top of critical cyber threats with Feedly &#8211; Feedly Blog</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Feedly Blog &raquo; Feed" href="https://blog.feedly.com/feed/" />
+		<script type="9d571106229765fdf3515c6d-text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/blog.feedly.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://blog.feedly.com/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='embedpress_blocks-cgb-style-css-css'  href='https://blog.feedly.com/wp-content/plugins/embedpress/Gutenberg/dist/blocks.style.build.css?ver=1622043448' type='text/css' media='all' />
+<link rel='stylesheet' id='feedly_call_for_action-style-css-css'  href='https://blog.feedly.com/wp-content/plugins/feedly-call-for-action-block/dist/blocks.style.build.css' type='text/css' media='all' />
+<link rel='stylesheet' id='feedly_accordion-style-css-css'  href='https://blog.feedly.com/wp-content/plugins/feedly-faq/dist/blocks.style.build.css' type='text/css' media='all' />
+<link rel='stylesheet' id='feedly_heading-style-css-css'  href='https://blog.feedly.com/wp-content/plugins/feedly-heading/dist/blocks.style.build.css' type='text/css' media='all' />
+<link rel='stylesheet' id='gts-style-css-css'  href='https://blog.feedly.com/wp-content/plugins/feedly-image/dist/blocks.style.build.css' type='text/css' media='all' />
+<link rel='stylesheet' id='feedly-fx-css-css'  href='https://blog.feedly.com/wp-content/plugins/feedly-image/dist/feedly-fx.css' type='text/css' media='all' />
+<link rel='stylesheet' id='feedly_key_results-style-css-css'  href='https://blog.feedly.com/wp-content/plugins/feedly-key-results/dist/blocks.style.build.css' type='text/css' media='all' />
+<link rel='stylesheet' id='feedly_pdf_break-style-css-css'  href='https://blog.feedly.com/wp-content/plugins/feedly-pdf-break/dist/blocks.style.build.css' type='text/css' media='all' />
+<link rel='stylesheet' id='feedly_realted_post-style-css-css'  href='https://blog.feedly.com/wp-content/plugins/feedly-related-post/dist/blocks.style.build.css' type='text/css' media='all' />
+<link rel='stylesheet' id='embedpress-css'  href='https://blog.feedly.com/wp-content/plugins/embedpress/assets/css/embedpress.css' type='text/css' media='all' />
+<link rel='stylesheet' id='feedly-highlight-css-css'  href='https://blog.feedly.com/wp-content/plugins/SpecialTag/feedly-highlight.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='feedly-style-css'  href='https://blog.feedly.com/wp-content/themes/feedly2020v125/dist/css/app.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='feedly-print-css'  href='https://blog.feedly.com/wp-content/themes/feedly2020v125/dist/css/print.min.css?ver=1.0.0' type='text/css' media='print' />
+<link rel='stylesheet' id='searchwp-live-search-css'  href='https://blog.feedly.com/wp-content/plugins/searchwp-live-ajax-search/assets/styles/style.css?ver=1.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='enlighterjs-css'  href='https://blog.feedly.com/wp-content/plugins/enlighter/cache/enlighterjs.min.css?ver=BrSGsJOU1qWpGdR' type='text/css' media='all' />
+<script type="9d571106229765fdf3515c6d-text/javascript" src='https://blog.feedly.com/wp-content/plugins/embedpress/assets/js/pdfobject.min.js?ver=3.0.0' id='embedpress-pdfobject-js'></script>
+<script type="9d571106229765fdf3515c6d-text/javascript" src='https://blog.feedly.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type="9d571106229765fdf3515c6d-text/javascript" src='https://blog.feedly.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type="9d571106229765fdf3515c6d-text/javascript" src='https://blog.feedly.com/wp-content/plugins/feedly-faq/dist/accordion.build.js' id='feedly-accordion-blocks-frontend-script-js'></script>
+<link rel="https://api.w.org/" href="https://blog.feedly.com/wp-json/" /><link rel="alternate" type="application/json" href="https://blog.feedly.com/wp-json/wp/v2/posts/15246" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://blog.feedly.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://blog.feedly.com/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://blog.feedly.com/how-an-australian-energy-provider-stays-on-top-of-critical-cyber-threats-with-feedly/" />
+<link rel='shortlink' href='https://blog.feedly.com/?p=15246' />
+<link rel="alternate" type="application/json+oembed" href="https://blog.feedly.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.feedly.com%2Fhow-an-australian-energy-provider-stays-on-top-of-critical-cyber-threats-with-feedly%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://blog.feedly.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.feedly.com%2Fhow-an-australian-energy-provider-stays-on-top-of-critical-cyber-threats-with-feedly%2F&#038;format=xml" />
+<script type="9d571106229765fdf3515c6d-text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74370245-1', 'auto');
+  ga('send', 'pageview');
+
+</script><!-- HubSpot WordPress Plugin v8.0.166: embed JS disabled as a portalId has not yet been configured -->			<script type="9d571106229765fdf3515c6d-text/javascript">
+				(function() {
+					var hbspt = window.hbspt = window.hbspt || {};
+					hbspt.forms = hbspt.forms || {};
+					hbspt._wpFormsQueue = [];
+					hbspt.enqueueForm = function(formDef) {
+						if (hbspt.forms && hbspt.forms.create) {
+							hbspt.forms.create(formDef);
+						} else {
+							hbspt._wpFormsQueue.push(formDef);
+						}
+					}
+					if (!window.hbspt.forms.create) {
+						Object.defineProperty(window.hbspt.forms, 'create', {
+							configurable: true,
+							get: function() {
+								return hbspt._wpCreateForm;
+							},
+							set: function(value) {
+								hbspt._wpCreateForm = value;
+								while (hbspt._wpFormsQueue.length) {
+									var formDef = hbspt._wpFormsQueue.shift();
+									if (!document.currentScript) {
+										var formScriptId = 'leadin-forms-v2-js';
+										hubspot.utils.currentScript = document.getElementById(formScriptId);
+									}
+									hbspt._wpCreateForm.call(hbspt.forms, formDef);
+								}
+							},
+						});
+					}
+				})();
+			</script>
+		
+<style></style>
+    
+    <meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:title" content="How an Australian energy provider stays on top of critical cyber threats with Feedly" /><meta property="og:description" content="This analyst team designed AI-powered security Feeds in Feedly that proactively alert them about specific topics, threats, and threat actors" /><meta property="og:url" content="https://blog.feedly.com/how-an-australian-energy-provider-stays-on-top-of-critical-cyber-threats-with-feedly/" /><meta property="og:site_name" content="Feedly Blog" /><meta property="og:image" content="https://blog.feedly.com/wp-content/uploads/2021/05/2.-Wind-energy--1200x800.jpeg" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:site" content="@feedly" /><meta name="twitter:creator" content="@feedly" /></head>
+
+<body class="post-template-default single single-post postid-15246 single-format-standard wp-embed-responsive fx">
+	<header class="Header--print">
+		<img src="https://blog.feedly.com/wp-content/themes/feedly2020v125/assets/images/logos/logo-feedly-full-color@2x.png" alt="feedly logo" />
+	</header>
+	<header class="Header" id="header" role="banner">
+		<div class="Wrapper Wrapper--large">
+			<a href="https://blog.feedly.com/" class="Header__brand-name" rel="home">
+				<img src="https://blog.feedly.com/wp-content/themes/feedly2020v125/assets/images/logos/logo.svg" alt="feedly logo" />
+			</a>
+
+							<a href="https://blog.feedly.com/" class="BackToHome" rel="home">Return to the homepage</a>
+			
+			<nav class="Header__navigation">
+        <a href="https://feedly.com/i/subscription/feed/https://blog.feedly.com/feed/" target="_blank" class="button follow">Follow on Feedly</a>
+        <a href="https://blog.feedly.com/help/" class="search-link"></a>
+
+				<div class="Header__navigation-mobile-button" id="toggle-navigation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<nav class="NavigationMobile" id="navigation-mobile">
+		<div class="menu-main-navigation-container"><ul id="menu-main-navigation" class="NavigationMobile__items"><li id="menu-item-9126" class="item menu-item menu-item-type-custom menu-item-object-custom menu-item-9126"><a href="/">All</a></li>
+<li id="menu-item-7920" class="item menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7920"><a href="https://blog.feedly.com/category/product-updates/">Product Updates</a></li>
+<li id="menu-item-10622" class="item menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10622"><a href="https://blog.feedly.com/category/lab/">Lab</a></li>
+<li id="menu-item-7921" class="item menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7921"><a href="https://blog.feedly.com/category/tutorials/">Tutorials</a></li>
+<li id="menu-item-10457" class="item menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10457"><a href="https://blog.feedly.com/category/nlp-breakfast/">NLP Breakfast</a></li>
+<li id="menu-item-7922" class="item menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-7922"><a href="https://blog.feedly.com/category/user-stories/">User Stories</a></li>
+<li id="menu-item-7923" class="item menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7923"><a href="https://blog.feedly.com/category/work-at-feedly/">Work at Feedly</a></li>
+</ul></div>	</nav>
+
+	<main class="site-content">
+
+<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
+		
+
+<article id="post-15246">
+	<div class="Wrapper Wrapper--small">
+		<div class="webfeeds-header">
+							<div class="webfeeds-header__kicker">Case Study</div>
+			
+			<header class="entry-header" id="post-header">
+				<h1 class="entry-title">
+					How an Australian energy provider stays on top of critical cyber threats with Feedly				</h1>
+				<div id="header-introduction"></div>
+				<p class="webfeeds-introduction">This analyst team designed AI-powered security Feeds in Feedly that proactively alert them about specific topics, threats, and threat actors</p>				<div class="metadata">
+					<time pubdate>May 27, 2021</time>
+				</div>
+			</header>
+
+			<div class="post-header-image type-full">
+				  
+    <div class="post-thumbnail">
+      <img width="1200" height="800" src="https://blog.feedly.com/wp-content/uploads/2021/05/2.-Wind-energy--1200x800.jpeg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Wind turbines. Photo by Karsten Würth on Unsplash." loading="lazy" srcset="https://blog.feedly.com/wp-content/uploads/2021/05/2.-Wind-energy--1200x800.jpeg 1200w, https://blog.feedly.com/wp-content/uploads/2021/05/2.-Wind-energy--300x200.jpeg 300w, https://blog.feedly.com/wp-content/uploads/2021/05/2.-Wind-energy--1024x683.jpeg 1024w, https://blog.feedly.com/wp-content/uploads/2021/05/2.-Wind-energy--768x512.jpeg 768w, https://blog.feedly.com/wp-content/uploads/2021/05/2.-Wind-energy--1536x1024.jpeg 1536w, https://blog.feedly.com/wp-content/uploads/2021/05/2.-Wind-energy--2048x1365.jpeg 2048w" sizes="(max-width: 1200px) 100vw, 1200px" />    </div>
+  
+    			</div>
+		</div>
+		
+		<div class="social" data-title="How an Australian energy provider stays on top of critical cyber threats with Feedly" data-url="https://blog.feedly.com/how-an-australian-energy-provider-stays-on-top-of-critical-cyber-threats-with-feedly/">
+  <div class="social__title">Share</div>
+  <div class="social__item social__title--facebook" data-social="facebook">
+  <img src="https://blog.feedly.com/wp-content/themes/feedly2020v125/assets/images/icons/logo-social-facebook.svg" alt="share to facebook" />
+  </div>
+  <div class="social__item social__item--twitter" data-social="twitter">
+  <img src="https://blog.feedly.com/wp-content/themes/feedly2020v125/assets/images/icons/logo-social-twitter.svg" alt="share to twitter" />
+  </div>
+  <div class="social__item social__item--linkedin" data-social="linkedin">
+  <img src="https://blog.feedly.com/wp-content/themes/feedly2020v125/assets/images/icons/logo-social-linkedin.svg" alt="share to linkedin" />
+  </div>
+  <div class="social__item social__item--buffer" data-social="buffer">
+  <img src="https://blog.feedly.com/wp-content/themes/feedly2020v125/assets/images/icons/logo-social-buffer.svg" alt="share to buffer" />
+  </div>
+</div>
+		<div class="post-content">
+			<div class="post-sidebar"></div>
+			
+<div class="wp-block-gts-feedly-key-results webfeeds-key-results"><div class="webfeeds-key-results__header"><span class="webfeeds-key-results__company">The energy provider</span>&#8216;s results with Feedly</div><div class="webfeeds-key-results__container"><div class="webfeeds-key-results__column"><img src="data:image/svg+xml,%3csvg width='29' height='29' viewBox='0 0 29 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3cpath d='M12.7841 3.16751L4.7824 7.16834C3.84955 7.63188 3.25838 8.58517 3.25769 9.62871V19.1492C3.25057 20.1894 3.83671 21.1485 4.77033 21.6189L12.7724 25.62C13.5468 26.0075 14.4588 26.0075 15.2334 25.6199L23.2332 21.62C24.1661 21.1564 24.7573 20.2031 24.7578 19.1596V9.62916C24.7573 8.58521 24.1661 7.63189 23.2316 7.16751L15.2316 3.16751C14.4607 2.78445 13.5549 2.78445 12.7841 3.16751ZM14.5641 4.51081L22.5624 8.50998C22.9888 8.72189 23.2576 9.15522 23.2578 9.62956V19.1592C23.2576 19.6331 22.9888 20.0664 22.5641 20.2775L14.5624 24.2783C14.2101 24.4546 13.7955 24.4546 13.4434 24.2784L5.44322 20.2783C5.02091 20.0655 4.75446 19.6296 4.75771 19.1543V9.62916C4.75804 9.15523 5.02677 8.72189 5.45156 8.51081L13.4532 4.50998C13.802 4.33669 14.2137 4.33669 14.5641 4.51081Z' fill='%232BB24C'/%3e %3cpath d='M3.65698 8.21373C3.82679 7.87412 4.21949 7.71964 4.56912 7.83894L4.66321 7.87832L14.0078 12.5501L23.3524 7.87832C23.692 7.70852 24.0989 7.82055 24.307 8.12577L24.3586 8.21373C24.5284 8.55335 24.4164 8.9602 24.1112 9.16833L24.0232 9.21997L14.3432 14.06C14.1673 14.1479 13.9653 14.1626 13.7807 14.104L13.6724 14.06L3.99239 9.21997C3.62191 9.03472 3.47174 8.58422 3.65698 8.21373Z' fill='%232BB24C'/%3e %3cpath d='M14.0078 12.6392C14.3875 12.6392 14.7013 12.9213 14.751 13.2874L14.7578 13.3892V25.1492C14.7578 25.5634 14.422 25.8992 14.0078 25.8992C13.6281 25.8992 13.3143 25.617 13.2647 25.2509L13.2578 25.1492V13.3892C13.2578 12.9749 13.5936 12.6392 14.0078 12.6392Z' fill='%232BB24C'/%3e %3c/svg%3e" alt="box icon" class="webfeeds-key-results__column-icon"/><p class="webfeeds-key-results__column-content webfeeds-key-results__key-one">Discovered a supply chain data breach <strong><span class="webfeeds-highlight">a week before the public announcement</span></strong></p></div><div class="webfeeds-key-results__column"><img src="data:image/svg+xml,%3csvg width='29' height='29' viewBox='0 0 29 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M3.50781 3.13916C3.92203 3.13916 4.25781 3.47495 4.25781 3.88916V22.5558C4.25781 23.4303 4.9667 24.1392 5.84115 24.1392H24.5078C24.922 24.1392 25.2578 24.4749 25.2578 24.8892C25.2578 25.3034 24.922 25.6392 24.5078 25.6392H5.84115C4.13827 25.6392 2.75781 24.2587 2.75781 22.5558V3.88916C2.75781 3.47495 3.0936 3.13916 3.50781 3.13916ZM25.0381 10.3588C25.331 10.6517 25.331 11.1266 25.0381 11.4195L19.2048 17.2528C18.9119 17.5457 18.437 17.5457 18.1441 17.2528L14.0078 13.1165L8.70481 18.4195C8.41192 18.7124 7.93704 18.7124 7.64415 18.4195C7.35126 18.1266 7.35126 17.6517 7.64415 17.3588L13.4775 11.5255C13.7704 11.2326 14.2452 11.2326 14.5381 11.5255L18.6745 15.6618L23.9775 10.3588C24.2704 10.0659 24.7452 10.0659 25.0381 10.3588Z' fill='%232BB24C'/%3e %3c/svg%3e" alt="chart icon" class="webfeeds-key-results__column-icon"/><p class="webfeeds-key-results__column-content webfeeds-key-results__key-two">Able to monitor <span class="webfeeds-highlight"><strong>hundreds of suppliers</strong></span> for breaches</p></div><div class="webfeeds-key-results__column"><img src="data:image/svg+xml,%3csvg width='29' height='29' viewBox='0 0 29 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M14.0078 4.63916C8.62304 4.63916 4.25781 9.00438 4.25781 14.3892C4.25781 19.7739 8.62304 24.1392 14.0078 24.1392C19.3926 24.1392 23.7578 19.7739 23.7578 14.3892C23.7578 9.00438 19.3926 4.63916 14.0078 4.63916ZM2.75781 14.3892C2.75781 8.17596 7.79461 3.13916 14.0078 3.13916C20.221 3.13916 25.2578 8.17596 25.2578 14.3892C25.2578 20.6024 20.221 25.6392 14.0078 25.6392C7.79461 25.6392 2.75781 20.6024 2.75781 14.3892Z' fill='%232BB24C'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M14.0078 9.30582C11.2003 9.30582 8.92444 11.5817 8.92444 14.3891C8.92444 17.1966 11.2003 19.4725 14.0078 19.4725C16.8152 19.4725 19.0911 17.1966 19.0911 14.3891C19.0911 11.5817 16.8152 9.30582 14.0078 9.30582ZM7.42444 14.3891C7.42444 10.7533 10.3719 7.80582 14.0078 7.80582C17.6436 7.80582 20.5911 10.7533 20.5911 14.3891C20.5911 18.025 17.6436 20.9725 14.0078 20.9725C10.3719 20.9725 7.42444 18.025 7.42444 14.3891Z' fill='%232BB24C'/%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M14.0078 1.9725C14.422 1.9725 14.7578 2.30829 14.7578 2.7225V13.6392H25.6745C26.0887 13.6392 26.4245 13.975 26.4245 14.3892C26.4245 14.8034 26.0887 15.1392 25.6745 15.1392H14.7578V26.0558C14.7578 26.4701 14.422 26.8058 14.0078 26.8058C13.5936 26.8058 13.2578 26.4701 13.2578 26.0558V15.1392H2.34113C1.92691 15.1392 1.59113 14.8034 1.59113 14.3892C1.59113 13.975 1.92691 13.6392 2.34113 13.6392H13.2578V2.7225C13.2578 2.30829 13.5936 1.9725 14.0078 1.9725Z' fill='%232BB24C'/%3e %3c/svg%3e" alt="target icon" class="webfeeds-key-results__column-icon"/><p class="webfeeds-key-results__column-content webfeeds-key-results__key-three">Detected a critical vulnerability <span class="webfeeds-highlight"><strong>within 2 hours of its release</strong> </span>and patched it immediately</p></div></div></div>
+
+
+
+<p><strong>This Feedly for Cybersecurity client has graciously allowed us to share their story on the condition of anonymity. Client names have been changed.</strong></p>
+
+
+
+<h2 class="wp-block-gts-feedly-heading webfeeds-heading" id="webfeeds-heading-the-customer"><div class="webfeeds-heading__kicker">THE CUSTOMER</div><div class="webfeeds-heading__title">This energy provider “helps keep the lights on for Australia”</div></h2>
+
+
+
+<p><strong>Started using Feedly Cybersecurity: 202</strong>0</p>
+
+
+
+<p>This Feedly client plays a critical role across the Australian energy sector. In tandem with other market players, they help protect Australia’s national energy supply from cyber attacks. “We help keep the lights on for Australia,” says Joe, Cybersecurity Threat Analyst.</p>
+
+
+
+<h2 class="wp-block-gts-feedly-heading webfeeds-heading" id="webfeeds-heading-the-challenge"><div class="webfeeds-heading__kicker">THE CHALLENGE</div><div class="webfeeds-heading__title">Cybersecurity threat intelligence at human speed is no longer sustainable</div></h2>
+
+
+
+<div class="wp-block-group"><div class="wp-block-group__inner-container">
+<h3>The onslaught of information</h3>
+
+
+
+<p>The world of cyber threat tracking runs on a different clock than human speed. The firehose of cyber news makes it hard for our client&#8217;s security analysts to find the signal through the noise. Analysts like Joe and his team struggled to keep up with the onslaught of information. Joe used to manage his own personal spreadsheet of 350 sources of information, which he ranked by tiers based on how trusted they were. But the amount of screen time required to keep up with incoming information and identify trends was unsustainable. “The cyber world is like drinking from a firehose in terms of the information we see,” says Joe.</p>
+
+
+
+<div class="wp-block-gts-feedly-blockquote webfeeds-blockquote webfeeds-blockquote--simple"><div class="webfeeds-blockquote__wrapper"><div class="webfeeds-blockquote__container"><p class="webfeeds-blockquote__content">&#8220;<strong>There&#8217;s this concept of <span class="webfeeds-highlight"><span class="webfeeds-highlight--text">cyber time. Last week&#8217;s issue is like three years ago.</span></span> We’re so swamped with information, we don’t have time to dive deep on a lot of stuff.”</strong></p><p class="webfeeds-blockquote__author">&#8211; Joe, Cybersecurity Threat Analyst</p></div></div></div>
+
+
+
+<h3>Ever-changing types of attacks and attackers</h3>
+
+
+
+<p>As cyber threats and ransomware crews become increasingly sophisticated, the human ability to monitor the cyber threat landscape falls behind. No matter how knowledgeable you are, cybersecurity at human speed can’t keep up with ransomware crews using increasingly complex software to manage their operations.&nbsp;</p>
+
+
+
+<p>For companies like this energy provider, the stakes are high. “If they encrypt our environment, we can’t supply energy to Australia,” says Joe.&nbsp;</p>
+
+
+
+<p>A data breach of even the smallest of our client&#8217;s vendors could put them at risk, so Joe and his team needed a way to keep an eye on even the smallest of breaches.&nbsp;</p>
+</div></div>
+
+
+
+<h2 class="wp-block-gts-feedly-heading webfeeds-heading" id="webfeeds-heading-the-solution"><div class="webfeeds-heading__kicker">THE SOLUTION</div><div class="webfeeds-heading__title">A stream of AI-powered security intelligence</div></h2>
+
+
+
+<div class="wp-block-group"><div class="wp-block-group__inner-container">
+<p>The analyst team at this company needed better tools to help leverage their time and attention and stop doing manual research. Joe’s team had been using Feedly to aggregate information for years. But when his boss, Oliver, Cyber Threat and Operations Manager, found out that Feedly’s cybersecurity-specific plan could use AI to flag cyber attacks, threats, and vulnerabilities, they knew they had to try it.&nbsp;</p>
+
+
+
+<h3>Organizing their security sources into focused Feeds&nbsp;</h3>
+
+
+
+<p>Oliver created Feeds around three main focus areas: renewable energy sources + cybersecurity, critical vulnerabilities, and supply chain threats.&nbsp;</p>
+
+
+
+<p>The team selected sources of information they trusted to track cybersecurity news. Not all articles from their trusted sources concern the energy sector. To filter out cybersecurity news unrelated to the energy sector, they configured <a href="https://blog.feedly.com/leo/">Leo, Feedly’s AI research assistant</a>, to flag articles about the specific areas they care about.</p>
+
+
+
+<div class="wp-block-gts-feedly-blockquote webfeeds-blockquote webfeeds-blockquote--simple"><div class="webfeeds-blockquote__wrapper"><div class="webfeeds-blockquote__container"><p class="webfeeds-blockquote__content"><strong>“Before using Leo, we had very generic Feeds. We were just looking for energy and cybersecurity news in our region. But over time, <span class="webfeeds-highlight--text">I&#8217;ve been able to nuance our requirements over supply chain attacks, like Solar Winds.”</span></strong></p><p class="webfeeds-blockquote__author"></p></div></div></div>
+
+
+
+<h3>Tracking ransomware in the energy space</h3>
+
+
+
+<p>For example, the analyst team has always tracked news at the intersection of cybersecurity and the energy sector. But once they started using Feedly for Cybersecurity, they created a Leo Priority to flag articles that cover ransomware in the energy industry.</p>
+
+
+
+<figure class="wp-block-gts-feedly-image wp-block-image webfeeds-frame-simple webfeeds-size-normal"><img src="https://blog.feedly.com/wp-content/uploads/2021/05/1.-Ransomware-priority-1.png"/><figcaption>The team created a Leo Priority to flag articles about ransomware and the energy industry.</figcaption></figure>
+
+
+
+<h3>Tracking supply chain attacks</h3>
+
+
+
+<p>“We were concerned about the supply chain risk for our company,” says Joe. “We talked to our internal procurement team to really understand our top 30 providers, with whom we spend millions of dollars.”</p>
+
+
+
+<p>To track supply chain risks, the team selected the exact vendors they work with and created a personalized stream of intelligence to track risks coming from their supply chain. “We were able to turn the list of our top partners into a Leo Priority and ask him to flag cyber attacks targeting those partners,” explains Joe.&nbsp;</p>
+
+
+
+<figure class="wp-block-gts-feedly-image wp-block-image webfeeds-frame-simple webfeeds-size-normal"><img src="https://blog.feedly.com/wp-content/uploads/2021/05/3.-Supply-chain.png"/><figcaption>The analyst team used the &#8220;Leo company lists&#8221; feature to track a list of 650 suppliers — from Microsoft to small law offices. Leo now flags articles about cyber attacks on those companies.  </figcaption></figure>
+
+
+
+<p>With a Priority in place, Leo flags articles about data breaches related to any of the company’s suppliers, so they’ll know when one of the companies in their supply chain is breached or attacked.&nbsp;Leo recognizes most of these names as companies, so he can differentiate if an attack is about Amazon (company) vs. Amazon (the river), for example.</p>
+
+
+
+<h3>Pushing articles to Slack to share with the local intelligence community&nbsp;</h3>
+
+
+
+<p>Beyond their internal intelligence team, Joe and Oliver share information with a Slack channel of 150 security professionals across the Australian energy sector.&nbsp;</p>
+
+
+
+<figure class="wp-block-gts-feedly-image wp-block-image webfeeds-frame-simple webfeeds-size-normal"><img src="https://blog.feedly.com/wp-content/uploads/2021/05/4.-Slack-1.png"/><figcaption>When members of Joe’s team save articles to the &#8220;Attacks in Energy Sector&#8221; Board, they automatically get pushed to a designated channel in Slack.</figcaption></figure>
+
+
+
+<p>Joe and Oliver add critical articles to a specific Feedly Board. They’ve connected the Board to the shared Slack channel, so when Joe or his teammates add articles to the Board, their security community will automatically see critical updates.&nbsp;</p>
+
+
+
+<figure class="wp-block-gts-feedly-image wp-block-image webfeeds-frame-simple webfeeds-size-normal"><img src="https://blog.feedly.com/wp-content/uploads/2021/05/5.-Slack-2.png"/><figcaption>The analyst team can add Notes when they save articles to their &#8220;Attacks in Energy Sector&#8221; Board, and those notes will show up in the designated Slack channel.</figcaption></figure>
+</div></div>
+
+
+
+<h2 class="wp-block-gts-feedly-heading webfeeds-heading" id="webfeeds-heading-the-results"><div class="webfeeds-heading__kicker">THE RESULTS</div><div class="webfeeds-heading__title">Staying ahead of the curve</div></h2>
+
+
+
+<div class="wp-block-group"><div class="wp-block-group__inner-container">
+<p>In October 2020, thanks to the work Joe had done to create Priorities based on their top 30 suppliers, his team proactively identified a data breach from one of their vendors.&nbsp;</p>
+
+
+
+<p><strong>“Thanks to my supply chain Priority in Feedly, we identified that one of our vendors had been breached a week before that the actual company actually officially told us.”</strong></p>
+
+
+
+<p>This proactive alerting allowed Joe’s team to inform procurement areas and monitor leak sites to see if any sensitive material had been published. Luckily none had been released, and the issue eventually went away.</p>
+
+
+
+<p>In March 2021, Joe checked his Feedly in the morning as usual, and found an F5 breach within two hours of the breach itself. “I was sitting at my desk, and I saw the F5 vulnerability pop up in Feedly. I pushed it out to management, and then there was a massive effort to patch that problem within two days, which was awesome.”&nbsp;</p>
+
+
+
+<div class="wp-block-gts-feedly-blockquote webfeeds-blockquote webfeeds-blockquote--simple"><div class="webfeeds-blockquote__wrapper"><div class="webfeeds-blockquote__container"><p class="webfeeds-blockquote__content">&#8220;<strong>I was sitting at my desk, and <span class="webfeeds-highlight--text">I saw the F5 vulnerability pop up in Feedly.</span> I pushed it out to management, and then there was a massive effort to patch that problem within two days, which was awesome.”</strong></p><p class="webfeeds-blockquote__author"></p></div></div></div>
+
+
+
+<h3>Avoiding information overload</h3>
+
+
+
+<p>When a vulnerability is exposed, “information overload goes up — you can see how the malware reporting goes up associated with that particular vulnerability” says Joe. In response to an exposed vulnerability, there’s a corresponding increase in exploits. That’s where Feedly comes in. Instead of wading through pages of articles about vulnerabilities and exploits that don’t concern his company, Joe can use Leo to surface vulnerabilities and exploits relevant to them.</p>
+
+
+
+<div class="wp-block-gts-feedly-blockquote webfeeds-blockquote webfeeds-blockquote--simple"><div class="webfeeds-blockquote__wrapper"><div class="webfeeds-blockquote__container"><p class="webfeeds-blockquote__content"><strong>“And that’s the power of Feedly. Using the smarts, intelligence, and Leo’s natural language processing to align vulnerabilities with exploits. <span class="webfeeds-highlight--text">What pops out at the end is what you need to know, what you need to take action on. Not the noise.”</span></strong></p><p class="webfeeds-blockquote__author"></p></div></div></div>
+
+
+
+<h3>What’s next: expanding the supply chain tracking&nbsp;</h3>
+
+
+
+<p>In late 2020, the analyst team discovered that a smaller supplier, a local law firm, was attacked after using a tool with an unpatched vulnerability. Criminals were able to steal data through a File Transfer tool. Our client was spending a relatively small amount of money with this company, so they weren’t on their list of top 30 suppliers, but this made Joe and his team realize they needed to expand their supply chain tracking in Feedly.&nbsp;</p>
+
+
+
+<p>The more they personalize their Feeds with help from Leo, the more our client’s security analysts can stay focused on the real threats. As Joe trusts Feedly more and more, he can focus on the high level analysis, and rely on Leo’s natural language processing to do the tedious work for him.&nbsp;</p>
+
+
+
+<p>Joe is excited for the possibilities to get even more proactive with upcoming Feedly features. In addition to their supply chain tracking project, the analyst team plans to use the Feedly API to push alerts directly to their internal intelligence platform, which will make it even easier to focus on threats.</p>
+
+
+
+<div class="wp-block-gts-feedly-blockquote webfeeds-blockquote"><div class="webfeeds-blockquote__wrapper"><div class="webfeeds-blockquote__container"><p class="webfeeds-blockquote__content"><strong>From a proactive monitoring perspective, the power of using Feedly is to actually inform you of breaches <span class="webfeeds-highlight--text">before anyone else knows.”</span></strong></p><img class="webfeeds-blockquote__img"/><p class="webfeeds-blockquote__author"></p></div></div></div>
+</div></div>
+
+
+
+<div class="wp-block-gts-feedly-call-for-action-block webfeeds-call-for-action"><div><h2 class="webfeeds-call-for-action__title"><strong>More proactive threat intelligence. Less noise.</strong></h2><p class="webfeeds-call-for-action__sub">Streamline your threat intelligence in Feedly so you can focus on real threats and ignore the distractions.</p><p><a href="https://feedly.typeform.com/to/zTSWjL?utm_source=AustraliaCaseStudy&amp;intent=trial" class="webfeeds-call-for-action__button button accent primary small">TRY FEEDLY FOR CYBERSECURITY</a></p></div><div><figure><img src="https://blog.feedly.com/wp-content/uploads/2020/09/CybersecurityTrends.png" class="webfeeds-call-for-action__img"/></figure></div></div>
+		</div>
+
+		
+		
+<div class="join-community">
+		<h2>Join the Feedly community</h2>
+
+		<p>Collaborate directly with the Feedly team as we build even better ways to cure information overload.</p>
+
+		<div class="join-community__socials">
+			<a href="https://join.slack.com/t/feedlylab/shared_invite/enQtODQ2NTI0MzA0MTk1LThmYTYwOTE3MDhjNWJlZjEyMWRlODYyNjQ2ZjRmZjFhZTRjMTZkZTc1ZThmMTkxZGM3YjNlODNjNGQwMzg3NWI" class="join-community__item">
+				<img src="https://blog.feedly.com/wp-content/themes/feedly2020v125/assets/images/icons/logo-slack.svg" alt="slack logo" />
+				<span class="join-community__text">Feedly Lab on Slack</span>
+			</a>
+
+			<a href="https://twitter.com/feedly" class="join-community__item">
+			<img src="https://blog.feedly.com/wp-content/themes/feedly2020v125/assets/images/icons/logo-twitter.svg" alt="twitter logo" />
+				<span class="join-community__text">Twitter</span>
+		</a>
+
+			<a href="https://www.linkedin.com/company/feedly" class="join-community__item">
+			<img src="https://blog.feedly.com/wp-content/themes/feedly2020v125/assets/images/icons/logo-linkedin.svg" alt="linkedin logo" />
+				<span class="join-community__text">LinkedIn</span>
+		</a>
+		
+	</div>	</div>
+</article>
+
+	</main>
+
+</div>
+
+
+	</div>
+	<footer class="Footer">
+		<div class="Wrapper">
+			<section id="nav_menu-2" class="widget widget_nav_menu"><h2 class="widget-title">Get Started</h2><div class="menu-footer-get-started-container"><ul id="menu-footer-get-started" class="menu"><li id="menu-item-7942" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7942"><a target="_blank" rel="noopener" href="https://feedly.com">Feedly Web</a></li>
+<li id="menu-item-7943" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7943"><a target="_blank" rel="noopener" href="https://itunes.apple.com/us/app/feedly-your-personal-news/id396069556?mt=8">Feedly for iOS</a></li>
+<li id="menu-item-7944" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7944"><a target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=com.devhd.feedly&#038;hl=en">Feedly for Android</a></li>
+<li id="menu-item-13241" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13241"><a target="_blank" rel="noopener" href="https://feedly.com/i/all">Explore Topics</a></li>
+</ul></div></section><section id="nav_menu-3" class="widget widget_nav_menu"><h2 class="widget-title">Upgrade</h2><div class="menu-footer-upgrade-container"><ul id="menu-footer-upgrade" class="menu"><li id="menu-item-7939" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7939"><a target="_blank" rel="noopener" href="https://feedly.com/i/pro/landing-pro">Feedly Pro</a></li>
+<li id="menu-item-13242" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13242"><a target="_blank" rel="noopener" href="https://feedly.com/i/landing/proPlus">Feedly Pro+</a></li>
+<li id="menu-item-7940" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7940"><a target="_blank" rel="noopener" href="https://feedly.com/i/landing/business">Feedly Business</a></li>
+<li id="menu-item-7941" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7941"><a target="_blank" rel="noopener" href="http://developer.feedly.com/">Feedly API</a></li>
+</ul></div></section><section id="nav_menu-4" class="widget widget_nav_menu"><h2 class="widget-title">Solutions</h2><div class="menu-footer-solutions-container"><ul id="menu-footer-solutions" class="menu"><li id="menu-item-12879" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12879"><a target="_blank" rel="noopener" href="https://feedly.com/i/landing/cybersecurity">Cybersecurity</a></li>
+<li id="menu-item-12845" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12845"><a target="_blank" rel="noopener" href="https://feedly.com/i/landing/biopharma">Biopharma</a></li>
+<li id="menu-item-7947" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7947"><a target="_blank" rel="noopener" href="http://developer.feedly.com">Feedly API</a></li>
+</ul></div></section><section id="nav_menu-5" class="widget widget_nav_menu"><h2 class="widget-title">More</h2><div class="menu-footer-more-container"><ul id="menu-footer-more" class="menu"><li id="menu-item-13243" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13243"><a target="_blank" rel="noopener" href="https://blog.feedly.com/leo/">Meet Leo</a></li>
+<li id="menu-item-12846" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12846"><a href="https://blog.feedly.com/ads/">Advertise on Feedly</a></li>
+<li id="menu-item-7951" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7951"><a href="https://blog.feedly.com/category/tutorials/">Tutorials</a></li>
+<li id="menu-item-7953" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7953"><a target="_blank" rel="noopener" href="http://feedly.com/i/terms">Terms and conditions</a></li>
+</ul></div></section>		</div>
+	</footer>
+	<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
+    tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno" },
+    TeX: { 
+        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
+    messageStyle: "none"
+  });
+</script>        
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS_HTML-full" type="9d571106229765fdf3515c6d-text/javascript"></script>				<style type="text/css">
+					.searchwp-live-search-results {
+						opacity: 0;
+						transition: opacity .25s ease-in-out;
+						-moz-transition: opacity .25s ease-in-out;
+						-webkit-transition: opacity .25s ease-in-out;
+						height: 0;
+						overflow: hidden;
+						z-index: 9999995; /* Exceed SearchWP Modal Search Form overlay. */
+						position: absolute;
+						display: none;
+					}
+
+					.searchwp-live-search-results-showing {
+						display: block;
+						opacity: 1;
+						height: auto;
+						overflow: auto;
+					}
+
+					.searchwp-live-search-no-results {
+						padding: 3em 2em 0;
+						text-align: center;
+					}
+
+					.searchwp-live-search-no-min-chars:after {
+						content: "Continue typing";
+						display: block;
+						text-align: center;
+						padding: 2em 2em 0;
+					}
+				</style>
+						<script type="9d571106229765fdf3515c6d-text/javascript">
+			var _SEARCHWP_LIVE_AJAX_SEARCH_BLOCKS = true;
+			var _SEARCHWP_LIVE_AJAX_SEARCH_ENGINE = 'default';
+			var _SEARCHWP_LIVE_AJAX_SEARCH_CONFIG = 'default';
+			</script>
+			<script type="9d571106229765fdf3515c6d-text/javascript" src='https://blog.feedly.com/wp-content/plugins/feedly-call-for-action-block/dist/script.build.js' id='feedly_call_for_action-js-js'></script>
+<script type="9d571106229765fdf3515c6d-text/javascript" src='https://blog.feedly.com/wp-content/plugins/feedly-heading/dist/script.build.js' id='feedly_heading-js-js'></script>
+<script type="9d571106229765fdf3515c6d-text/javascript" src='https://blog.feedly.com/wp-content/plugins/feedly-key-results/dist/script.build.js' id='feedly_key_results-js-js'></script>
+<script type="9d571106229765fdf3515c6d-text/javascript" src='https://blog.feedly.com/wp-content/plugins/embedpress/assets/js/front.js?ver=3.0.0' id='embedpress-front-js'></script>
+<script type="9d571106229765fdf3515c6d-text/javascript" src='https://blog.feedly.com/wp-content/themes/feedly2020v125/dist/js/app.min.js?ver=1.0.0' id='feedly-script-js'></script>
+<script type="9d571106229765fdf3515c6d-text/javascript" id='swp-live-search-client-js-extra'>
+/* <![CDATA[ */
+var searchwp_live_search_params = [];
+searchwp_live_search_params = {"ajaxurl":"https:\/\/blog.feedly.com\/wp-admin\/admin-ajax.php","origin_id":15246,"config":{"default":{"engine":"default","input":{"delay":500,"min_chars":3},"results":{"position":"bottom","width":"auto","offset":{"x":0,"y":5}},"spinner":{"lines":0,"length":8,"width":4,"radius":8,"corners":1,"rotate":0,"direction":1,"color":"#000","speed":1,"trail":60,"shadow":false,"hwaccel":false,"className":"spinner","zIndex":2000000000,"top":"50%","left":"50%"}}},"msg_no_config_found":"No valid SearchWP Live Search configuration found!","aria_instructions":"When autocomplete results are available use up and down arrows to review and enter to go to the desired page. Touch device users, explore by touch or with swipe gestures."};;
+/* ]]> */
+</script>
+<script type="9d571106229765fdf3515c6d-text/javascript" src='https://blog.feedly.com/wp-content/plugins/searchwp-live-ajax-search/assets/javascript/dist/script.min.js?ver=1.6.1' id='swp-live-search-client-js'></script>
+<script type="9d571106229765fdf3515c6d-text/javascript" src='https://blog.feedly.com/wp-content/plugins/enlighter/cache/enlighterjs.min.js?ver=BrSGsJOU1qWpGdR' id='enlighterjs-js'></script>
+<script type="9d571106229765fdf3515c6d-text/javascript" id='enlighterjs-js-after'>
+!function(e,n){if("undefined"!=typeof EnlighterJS){var o={"selectors":{"block":"pre.EnlighterJSRAW","inline":"code.EnlighterJSRAW"},"options":{"indent":4,"ampersandCleanup":true,"linehover":true,"rawcodeDbclick":false,"textOverflow":"break","linenumbers":true,"theme":"enlighter","language":"generic","retainCssClasses":false,"collapse":false,"toolbarOuter":"","toolbarTop":"{BTN_RAW}{BTN_COPY}{BTN_WINDOW}{BTN_WEBSITE}","toolbarBottom":""}};(e.EnlighterJSINIT=function(){EnlighterJS.init(o.selectors.block,o.selectors.inline,o.options)})()}else{(n&&(n.error||n.log)||function(){})("Error: EnlighterJS resources not loaded yet!")}}(window,console);
+</script>
+<script type="9d571106229765fdf3515c6d-text/javascript" src='https://blog.feedly.com/wp-includes/js/wp-embed.min.js' id='wp-embed-js'></script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="9d571106229765fdf3515c6d-|49" defer=""></script></body>
+</html>
